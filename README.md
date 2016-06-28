@@ -11,7 +11,7 @@ Usage
 * Clone this project into your _plugins directory.
 * Add the following lines to your _config.yml
 
-```
+```ruby
 markdown: kramdown
 kramdown:
   input: KramdownEasyLink
@@ -21,7 +21,7 @@ kramdown:
 
 Usage with standalone kramdown is similar:
 
-```
+```ruby
 require 'kramdown'
 require './kramdown-gist'
 
