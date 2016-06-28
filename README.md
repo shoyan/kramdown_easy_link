@@ -23,7 +23,7 @@ Usage with standalone kramdown is similar:
 
 ```ruby
 require 'kramdown'
-require './kramdown-gist'
+require './kramdown_easy_link'
 
 Kramdown::Document.new(content, :input => 'KramdownEasyLink').to_html
 ```
