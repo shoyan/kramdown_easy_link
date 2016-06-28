@@ -1,7 +1,7 @@
 kramdown-easy-link
 =============
 
-This plugins extends the default [kramdown](http://kramdown.gettalong.org/) parser with a new block-level element which adds support for `http://example.com`. The element is rendered  as a `<a href="http://example.com">http://example.com</a>`.
+This plugins extends the default [kramdown](http://kramdown.gettalong.org/) parser with a new block-level element which adds support for `http://example.com`. The element is rendered  as a `<p><a href="http://example.com">http://example.com</a></p>`.
 
 Usage
 -----
